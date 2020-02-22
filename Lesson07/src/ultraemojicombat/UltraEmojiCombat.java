@@ -27,10 +27,9 @@ public class UltraEmojiCombat {
             "Nerdaart", "EUA", 30, 1.81f, 105.7f, 12, 2, 4
         );
         
-        f[0].toWinFight();
-        f[0].toWinFight();
-        f[0].toWinFight();
-        f[0].toLoseFight();
-        f[0].toIntroduce();
+        Fight UEC01 = new Fight();
+        UEC01.markFight(f[0], f[1]);
+        UEC01.fight();
+
     } 
 }
