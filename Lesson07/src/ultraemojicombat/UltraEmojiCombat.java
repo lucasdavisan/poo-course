@@ -30,6 +30,5 @@ public class UltraEmojiCombat {
         Fight UEC01 = new Fight();
         UEC01.markFight(f[0], f[1]);
         UEC01.fight();
-
     } 
 }
